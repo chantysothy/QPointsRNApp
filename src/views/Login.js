@@ -10,6 +10,7 @@ import {isOk} from '../components/IsConnected';
 var {
   Alert,
   AsyncStorage,
+  StatusBar,
   StyleSheet,
   Text,
   TextInput,

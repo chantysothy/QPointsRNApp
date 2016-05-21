@@ -115,6 +115,7 @@ var Messages = React.createClass({
           dataSource={this.state.dataSource}
           renderRow={this._renderRow}
           renderHeader={this._renderHeader}
+          enableEmptySections={true}
           />
       </View>
     );

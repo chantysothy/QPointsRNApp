@@ -1,4 +1,5 @@
-import React, {View} from 'react-native';
+import React from 'react-native';
+var {StatusBar, View} = React;
 import BottomBar from './BottomBar';
 import TopBar from './TopBar';
 
@@ -15,7 +16,7 @@ export default function (props){
 	switch (props.route.id){
     case 'Login':
       return (
-        <View style={{flex: 1}}>
+        <View style={{flex: 1}}> 
           <TopBar nav={props.navigator} displProfile={false} displBackIcon={false} />
           <Login navigator={props.navigator} />
         </View>
@@ -86,3 +87,6 @@ export default function (props){
       );
   };
 }
+
+// <StatusBar backgroundColor="white"
+        // barStyle="light-content" />

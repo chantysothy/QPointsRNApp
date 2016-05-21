@@ -136,6 +136,7 @@ var MyPoints = React.createClass({
           onScroll={this._handleScroll}
           renderRow={this._renderRow}
           renderHeader={this._renderHeader}
+          enableEmptySections={true}
           />
       </View>
     );
